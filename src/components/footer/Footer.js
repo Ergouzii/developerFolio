@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <Fade bottom duration={1000} distance="5px">
     <div className="footer-div">
-      <p className="footer-text">Theme by <a href="https://github.com/saadpasta/developerFolio">developerFolio</a></p>
+      <p className="footer-text">Theme by <a href="https://github.com/saadpasta/developerFolio">developerFolio (with my contribution!)</a></p>
     </div>
     </Fade>
   );
