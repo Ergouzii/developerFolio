@@ -118,7 +118,7 @@ const workExperiences = {
   viewExperiences: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Co-op Developer',
+      role: 'Developer, Co-op',
       company: 'Alberta Investment Management Corporation (AIMCo)',
       companylogo: require('./assets/images/aimco_logo.jpeg'),
       date: 'January 2020 – Present',
