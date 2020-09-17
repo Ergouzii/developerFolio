@@ -179,7 +179,9 @@ const bigProjects = {
 
 const achievementSection = {
   viewAchievement: true, // Set it to true to show Achievements
-
+  title: emoji('Achievements 🏆 '),
+  subtitle:
+    'Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !',
   achivementsCards: [
     {
       title: 'Server-side Development with NodeJS, Express and MongoDB',
@@ -252,6 +254,9 @@ const achievementSection = {
 
 const blogSection = {
   viewBlogs: true, // Set it to true to view Blogs section
+  title: 'Blogs',
+  subtitle:
+    'With love for developing cool stuff, I love to share with people what I have learnt.',
 
   blogs: [
     {
@@ -319,7 +324,7 @@ const contactInfo = {
 const twitterDetails = {
   /* Replace "twitter" with your twitter username without @.
     This section will not be shown if no username is given. */
-  userName : "twitter"
+  userName : ""
 };
 
 export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails};
