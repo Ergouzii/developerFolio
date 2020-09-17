@@ -95,7 +95,7 @@ https://fontawesome.com/icons?d=gallery */
 // Top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, // Set it to true to show Proficiency Section
+  viewSkillBars: false, // Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design",  // Insert stack or technology you have experience in
@@ -160,7 +160,7 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  viewBigProjects: true, // Set it to true to show Big Projects
+  viewBigProjects: false, // Set it to true to show Big Projects
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
@@ -283,7 +283,7 @@ const blogSection = {
 // Talks Section
 
 const talkSection = {
-  viewTalks: true, // Set it to true to see Talks section
+  viewTalks: false, // Set it to true to see Talks section
 
   title: "Talks",
   subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
@@ -301,7 +301,7 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  viewPodcast: true, // Set it to true to see Podcast section
+  viewPodcast: false, // Set it to true to see Podcast section
 
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
@@ -324,7 +324,7 @@ const contactInfo = {
 const twitterDetails = {
   /* Replace "twitter" with your twitter username without @.
     This section will not be shown if no username is given. */
-  userName : ""
+  userName : null
 };
 
 export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails};
