@@ -23,8 +23,12 @@
   text-shadow: blanchedalmond;
 }
 
-.opp-div {
+.email-div {
   padding-bottom: 1rem;
+}
+
+.email-link {
+  text-decoration: none;
 }
 
 .row {
