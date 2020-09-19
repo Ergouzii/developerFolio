@@ -7,9 +7,9 @@ import emoji from 'react-easy-emoji';
 const greeting = {
   /* Summary And Greeting Section */
   username: 'Xiaohui Liu',
-  title: "Hi all, I'm Xiaohui (Jay)",
+  title: "Hey, I'm Xiaohui (Jay)",
   subTitle: emoji(
-    'A passionate Software Developer 🚀 having experience of building web applications with JavaScript / React.js / Nodejs / Django and some other cool libraries and frameworks.'
+    'A passionate Software Developer 🚀 who loves building web applications with React.js / Nodejs / Django and some other cool libraries and frameworks.'
   ),
   resumeLink:
     'https://docs.google.com/document/d/13fL4IivGrph-55tWBT6soskozCSgFeqSehdf6drKYFk/export?format=pdf',

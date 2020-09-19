@@ -23,10 +23,6 @@
   text-shadow: blanchedalmond;
 }
 
-.email-div {
-  padding-bottom: 1rem;
-}
-
 .email-link {
   text-decoration: none;
 }
@@ -51,9 +47,13 @@
   font-size: 22px;
 }
 
-.desc-prof {
-  line-height: 45px;
-  font-size: 19px;
+.text {
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.end {
+  padding-bottom: 1.5rem;
 }
 
 @media (max-width: 768px) {
