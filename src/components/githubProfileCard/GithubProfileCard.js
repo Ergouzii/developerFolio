@@ -34,7 +34,7 @@ export default function GithubProfileCard({prof}) {
               </div>
             }
             <div>
-              <span className="text">Open to relocation in: Vancouver, Edmonton, Calgary, Toronto</span>
+              <span className="text">Willing to relocate to: Vancouver, Edmonton, Calgary, Toronto</span>
             </div>
             <div className="end">
               <span className="text">Open for opportunities: {prof.hireable}</span>
