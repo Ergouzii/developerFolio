@@ -153,7 +153,7 @@ const workExperiences = {
     {
       role: 'Research Assistant',
       company: 'University of Alberta',
-      companylogo: require('./assets/images/ua_logo.png'),
+      companylogo: require('./assets/images/ualberta_logo.png'),
       date: 'October 2019 – December 2019',
       desc:
         'Performed research in the area of Information Retrieval and Web Archiving.',
@@ -181,17 +181,13 @@ const openSource = {
 
 const bigProjects = {
   viewBigProjects: false, // Set it to true to show Big Projects
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: null,
+  subtitle: null,
   projects: [
     {
-      image: require('./assets/images/saayaHealthLogo.webp'),
-      link: 'http://saayahealth.com/',
-    },
-    {
-      image: require('./assets/images/nextuLogo.webp'),
-      link: 'http://nextu.se/',
-    },
+      image: null,
+      link: null,
+    }
   ],
 };
 
@@ -306,7 +302,7 @@ const talkSection = {
   viewTalks: false, // Set it to true to see Talks section
 
   title: "Talks",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+  subtitle: null,
 
   talks: [
     {
