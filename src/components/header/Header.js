@@ -1,18 +1,9 @@
 import React from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import {greeting, workExperiences, openSource, bigProjects, achievementSection,
-  blogSection, talkSection} from "../../portfolio";
+import {greeting, educationInfo, workExperiences} from "../../portfolio";
 
-export default function Header() {
-  const exp = workExperiences.viewExperiences;
-  const openSrc = openSource.viewOpenSource;
-  const bigProj = bigProjects.viewBigProjects;
-  const achievementSec = achievementSection.viewAchievement;
-  const blogSec = blogSection.viewBlogs;
-  const talkSec = talkSection.viewTalks;
-
-
+function Header() {
   return (
     <Headroom>
       <header className="header">
@@ -29,36 +20,31 @@ export default function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          { exp &&
+          {educationInfo.viewEducation &&
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          }
+          {workExperiences.viewExperiences &&
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
           }
-          { openSrc &&
-            <li>
-              <a href="#opensource">Open Source</a>
-            </li>
-          }
-          { bigProj &&
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-          }
-          { achievementSec &&
-            <li>
-              <a href="#achievements">Achievements</a>
-            </li>
-          }
-          { blogSec &&
-            <li>
-              <a href="#blogs">Blogs</a>
-            </li>
-          }
-          { talkSec &&
-            <li>
-              <a href="#talks">Talks</a>
-            </li>
-          }
+          <li>
+            <a href="#opensource">Open Source</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#achievements">Achievements</a>
+          </li>
+          <li>
+            <a href="#blogs">Blogs</a>
+          </li>
+          <li>
+            <a href="#talks">Talks</a>
+          </li>
           <li>
             <a href="#contact">Contact Me</a>
           </li>
@@ -67,3 +53,4 @@ export default function Header() {
     </Headroom>
   );
 }
+export default Header;
