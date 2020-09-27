@@ -27,9 +27,10 @@ export default function Profile() {
       .query({
         query: gql`
       {
-        user(login:"${openSource.githubUserName}") { 
+        user(login:"${openSource.githubUserName}") {
           name
           bio
+          email
           isHireable
           avatarUrl
           location
@@ -52,10 +53,10 @@ export default function Profile() {
       getProfileData();
     }
   }, []);
-if (openSource.showGithubProfile === "true" && !(typeof prof === 'string' || prof instanceof String)){  
+if (openSource.showGithubProfile === "true" && !(typeof prof === 'string' || prof instanceof String)){
     return (
       <Suspense fallback={renderLoader()}>
-        <GithubProfileCard prof={prof} key={prof.id} /> 
+        <GithubProfileCard prof={prof} key={prof.id} />
       </Suspense>
        );
   } else {
