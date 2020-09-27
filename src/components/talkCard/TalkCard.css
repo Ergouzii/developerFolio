@@ -2,10 +2,9 @@
     display: flex;
     justify-content: center;
   }
-  
+
   /* Rectangle Card Layout */
   .rectangle {
-    background: url(../../assets/images/talksCardBack.svg);
     width: 380px;
     height: 300px;
     border-radius: 4px;
@@ -24,7 +23,7 @@
     border-radius: 4px;
     position: absolute;
   }
-  
+
   /* Card  Styling */
   .talk-card-title {
     color: white;
@@ -91,11 +90,10 @@
     .talk-card-image {
       width: 100%;
     }
-  
+
     .square {
       width: 100%;
       height: auto;
       padding-bottom: 30px;
     }
   }
-  
