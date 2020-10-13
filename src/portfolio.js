@@ -20,7 +20,6 @@ const greeting = {
 const socialMediaLinks = {
   github: 'https://github.com/Ergouzii',
   linkedin: 'https://www.linkedin.com/in/xiaohui-liu/',
-  medium: 'https://medium.com/@jayliu925',
   gmail: 'xiaohui.j.liu@gmail.com',
 };
 
@@ -98,19 +97,19 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "University of Alberta",
-      logo: require("./assets/images/ualberta_logo.png"),
-      subHeader: "BSc Honors in Computer Science",
-      duration: "September 2016 - June 2021",
-      desc: "Achievements:",
+      schoolName: 'University of Alberta',
+      logo: require('./assets/images/ualberta_logo.png'),
+      subHeader: 'BSc Honors in Computer Science',
+      duration: 'September 2016 - June 2021',
+      desc: 'Achievements:',
       descBullets: [
-        "Dean’s Honor Roll",
-        "Faculty of Science Academic Excellence Scholarship",
-        "International Student Scholarship"
-      ]
-    }
-  ]
-}
+        'Dean’s Honor Roll',
+        'Faculty of Science Academic Excellence Scholarship',
+        'International Student Scholarship',
+      ],
+    },
+  ],
+};
 
 // Top 3 proficient stacks/tech experience
 
@@ -118,18 +117,18 @@ const techStack = {
   viewSkillBars: false, // Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  // Insert stack or technology you have experience in
-      progressPercentage: "90%"  // Insert relative proficiency in percentage
+      Stack: 'Frontend/Design', // Insert stack or technology you have experience in
+      progressPercentage: '90%', // Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: 'Backend',
+      progressPercentage: '70%',
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
-  ]
+      Stack: 'Programming',
+      progressPercentage: '60%',
+    },
+  ],
 };
 
 // Top 3 work experiences
@@ -187,7 +186,7 @@ const bigProjects = {
     {
       image: null,
       link: null,
-    }
+    },
   ],
 };
 
@@ -199,6 +198,23 @@ const achievementSection = {
   subtitle:
     'Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !',
   achivementsCards: [
+    {
+      title: 'Front End Libraries',
+      subtitle:
+        'With 300 hours of coursework, this curriculum covers Bootstrap, jQuery, Sass, React, and Redux.',
+      image: require('./assets/images/react.png'),
+      footerLink: [
+        {
+          name: 'Certification',
+          url:
+            'https://www.freecodecamp.org/certification/fcc58c4c591-73a8-4bbe-8c75-eb92b5bb7fb3/front-end-libraries',
+        },
+        {
+          name: 'Details',
+          url: 'https://www.freecodecamp.org/learn/#front-end-libraries',
+        },
+      ],
+    },
     {
       title: 'Server-side Development with NodeJS, Express and MongoDB',
       subtitle:
@@ -260,7 +276,7 @@ const achievementSection = {
           url:
             'https://www.freecodecamp.org/certification/fcc58c4c591-73a8-4bbe-8c75-eb92b5bb7fb3/responsive-web-design',
         },
-        { name: 'Details', url: 'https://www.freecodecamp.org/learn/' },
+        { name: 'Details', url: 'https://www.freecodecamp.org/learn/#responsive-web-design' },
       ],
     },
   ],
@@ -269,7 +285,7 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  viewBlogs: true, // Set it to true to view Blogs section
+  viewBlogs: false, // Set it to true to view Blogs section
   title: 'Blogs',
   subtitle:
     'With love for developing cool stuff, I love to share with people what I have learnt.',
@@ -301,7 +317,7 @@ const blogSection = {
 const talkSection = {
   viewTalks: false, // Set it to true to see Talks section
 
-  title: "Talks",
+  title: 'Talks',
   subtitle: null,
 
   talks: [
@@ -319,13 +335,11 @@ const talkSection = {
 const podcastSection = {
   viewPodcast: false, // Set it to true to see Podcast section
 
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji('Podcast 🎙️'),
+  subtitle: 'I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY',
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    '',
-  ],
+  podcast: [''],
 };
 
 const contactInfo = {
@@ -340,7 +354,22 @@ const contactInfo = {
 const twitterDetails = {
   /* Replace "twitter" with your twitter username without @.
     This section will not be shown if no username is given. */
-  userName : null
+  userName: null,
 };
 
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails};
+export {
+  greeting,
+  socialMediaLinks,
+  skillsSection,
+  educationInfo,
+  techStack,
+  workExperiences,
+  openSource,
+  bigProjects,
+  achievementSection,
+  blogSection,
+  talkSection,
+  podcastSection,
+  contactInfo,
+  twitterDetails,
+};
