@@ -23,61 +23,12 @@ export default function socialMedia() {
       null}
 
       {socialMediaLinks.gmail ?
-      <a href={`mailto:${socialMediaLinks.gmail}`} className="icon-button google" target="_blank">
-        <i className="fab fa-google"></i>
+      <a href={`mailto:${socialMediaLinks.gmail}`} className="icon-button envelope" target="_blank">
+        <i class="fas fa-paper-plane"></i>
         <span></span>
       </a>
       :
       null}
-
-      {socialMediaLinks.gitlab ?
-      <a href={socialMediaLinks.gitlab} className="icon-button gitlab" target="_blank">
-        <i className="fab fa-gitlab"></i>
-        <span></span>
-      </a>
-      :
-      null }
-
-      {socialMediaLinks.facebook ?
-      <a href={socialMediaLinks.facebook} className="icon-button facebook" target="_blank">
-        <i className="fab fa-facebook-f"></i>
-        <span></span>
-      </a>
-      :
-      null}
-
-       {socialMediaLinks.instagram ?
-      <a href={socialMediaLinks.instagram} className="icon-button instagram" target="_blank">
-        <i className="fab fa-instagram"></i>
-        <span></span>
-      </a>
-      :
-      null}
-
-      {socialMediaLinks.twitter ?
-      <a href={socialMediaLinks.twitter} className="icon-button twitter" target="_blank">
-        <i className="fab fa-twitter"></i>
-        <span></span>
-      </a>
-      :
-      null}
-
-      {socialMediaLinks.medium ?
-      (<a href={socialMediaLinks.medium} className="icon-button medium" target="_blank">
-        <i className="fab fa-medium"></i>
-        <span></span>
-      </a>)
-      :
-      null}
-
-      {socialMediaLinks.stackoverflow ?
-      (<a href={socialMediaLinks.stackoverflow} className="icon-button stack-overflow" target="_blank">
-        <i className="fab fa-stack-overflow"></i>
-        <span></span>
-      </a>)
-      :
-      null}
-
     </div>
   );
 }
