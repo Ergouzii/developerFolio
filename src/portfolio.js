@@ -81,6 +81,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-less',
     },
     {
+      skillName: 'SASS',
+      fontAwesomeClassname: 'fab fa-sass',
+    },
+    {
       skillName: 'SQL-Database',
       fontAwesomeClassname: 'fas fa-database',
     },
@@ -276,7 +280,10 @@ const achievementSection = {
           url:
             'https://www.freecodecamp.org/certification/fcc58c4c591-73a8-4bbe-8c75-eb92b5bb7fb3/responsive-web-design',
         },
-        { name: 'Details', url: 'https://www.freecodecamp.org/learn/#responsive-web-design' },
+        {
+          name: 'Details',
+          url: 'https://www.freecodecamp.org/learn/#responsive-web-design',
+        },
       ],
     },
   ],
