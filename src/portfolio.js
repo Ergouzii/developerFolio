@@ -18,7 +18,7 @@ const greeting = {
 // Social Media Link
 
 const socialMediaLinks = {
-  github: 'https://github.com/Ergouzii',
+  github: 'https://github.com/xiaohui-j-liu',
   linkedin: 'https://www.linkedin.com/in/xiaohui-liu/',
   gmail: 'xiaohui.j.liu@gmail.com',
 };
