@@ -1,7 +1,18 @@
-import React from "react";
-import Headroom from "react-headroom";
-import "./Header.css";
-import {greeting, educationInfo, workExperiences} from "../../portfolio";
+import React from 'react';
+import Headroom from 'react-headroom';
+import './Header.css';
+import {
+  greeting,
+  educationInfo,
+  workExperiences,
+  openSource,
+  bigProjects,
+  achievementSection,
+  blogSection,
+  talkSection,
+  podcastSection,
+  twitterDetails,
+} from '../../portfolio';
 
 function Header() {
   return (
@@ -20,31 +31,41 @@ function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          {educationInfo.viewEducation &&
+          {educationInfo.viewEducation && (
             <li>
               <a href="#education">Education</a>
             </li>
-          }
-          {workExperiences.viewExperiences &&
+          )}
+          {workExperiences.viewExperiences && (
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
-          }
-          <li>
-            <a href="#opensource">Open Source</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#achievements">Achievements</a>
-          </li>
-          <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-          <li>
-            <a href="#talks">Talks</a>
-          </li>
+          )}
+          {openSource.viewOpenSource && (
+            <li>
+              <a href="#opensource">Open Source</a>
+            </li>
+          )}
+          {bigProjects.viewBigProjects && (
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+          )}
+          {achievementSection.viewAchievement && (
+            <li>
+              <a href="#achievements">Achievements</a>
+            </li>
+          )}
+          {blogSection.viewBlogs && (
+            <li>
+              <a href="#blogs">Blogs</a>
+            </li>
+          )}
+          {talkSection.viewTalks && (
+            <li>
+              <a href="#talks">Talks</a>
+            </li>
+          )}
           <li>
             <a href="#contact">Contact Me</a>
           </li>
