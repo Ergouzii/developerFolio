@@ -12,7 +12,7 @@ const greeting = {
     'A passionate Software Developer 🚀 who loves building web applications with React.js / Nodejs / Django and some other cool libraries and frameworks.'
   ),
   resumeLink:
-    'https://docs.google.com/document/d/1HYOj2ibXAgZ5wz27EzKMWeNNX58SZsZX4C-yb-T-3LE/export?format=pdf&attachment=false',
+    'https://docs.google.com/document/d/13fL4IivGrph-55tWBT6soskozCSgFeqSehdf6drKYFk/export?format=pdf&attachment=false',
 };
 
 // Social Media Link
