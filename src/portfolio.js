@@ -104,7 +104,7 @@ const educationInfo = {
       schoolName: 'University of Alberta',
       logo: require('./assets/images/ualberta_logo.png'),
       subHeader: 'BSc Honors in Computer Science',
-      duration: 'September 2016 - April 2021',
+      duration: 'September 2016 - June 2021',
       desc: 'Achievements:',
       descBullets: [
         'Dean’s Honor Roll',
