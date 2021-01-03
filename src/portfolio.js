@@ -9,7 +9,7 @@ const greeting = {
   username: 'Xiaohui Liu',
   title: "Hey, I'm Xiaohui (Jay)",
   subTitle: emoji(
-    'A passionate Software Developer 🚀 who loves building web applications with React.js / Nodejs / Django and some other cool libraries and frameworks.'
+    'A passionate Full-Stack Software Developer 🚀 who loves building applications with React.js / Vue.js / Node.js / Django / Laravel and some other cool libraries and frameworks.'
   ),
   resumeLink:
     'https://docs.google.com/document/d/13fL4IivGrph-55tWBT6soskozCSgFeqSehdf6drKYFk/export?format=pdf&attachment=false',
@@ -53,36 +53,36 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-python',
     },
     {
-      skillName: 'React.js',
-      fontAwesomeClassname: 'fab fa-react',
-    },
-    {
-      skillName: 'Node.js',
-      fontAwesomeClassname: 'fab fa-node',
-    },
-    {
-      skillName: 'NPM',
-      fontAwesomeClassname: 'fab fa-npm',
-    },
-    {
-      skillName: 'Django',
-      fontAwesomeClassname: 'fab fa-dochub',
+      skillName: 'php',
+      fontAwesomeClassname: 'fab fa-php',
     },
     {
       skillName: 'HTML5',
       fontAwesomeClassname: 'fab fa-html5',
     },
     {
-      skillName: 'CSS3',
+      skillName: 'CSS3 / Less / Sass',
       fontAwesomeClassname: 'fab fa-css3-alt',
     },
     {
-      skillName: 'LESS',
-      fontAwesomeClassname: 'fab fa-less',
+      skillName: 'React.js',
+      fontAwesomeClassname: 'fab fa-react',
     },
     {
-      skillName: 'SASS',
-      fontAwesomeClassname: 'fab fa-sass',
+      skillName: 'Vue.js',
+      fontAwesomeClassname: 'fab fa-vuejs',
+    },
+    {
+      skillName: 'Node.js',
+      fontAwesomeClassname: 'fab fa-node',
+    },
+    {
+      skillName: 'Laravel',
+      fontAwesomeClassname: 'fab fa-laravel',
+    },
+    {
+      skillName: 'Django',
+      fontAwesomeClassname: 'fab fa-dochub',
     },
     {
       skillName: 'SQL-Database',
@@ -91,6 +91,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: 'AWS',
       fontAwesomeClassname: 'fab fa-aws',
+    },
+    {
+      skillName: 'git',
+      fontAwesomeClassname: 'fab fa-git',
     },
   ],
 };
@@ -141,10 +145,21 @@ const workExperiences = {
   viewExperiences: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Developer, Co-op',
+      role: 'Software Developer',
+      company: 'Whitespark',
+      companylogo: require('./assets/images/whitespark.jpg'),
+      date: 'January 2021 – Present',
+      desc:
+        'Whitespark builds softwares and provides services that help businesses and agencies with local search marketing.',
+      descBullets: [
+        'Full-stack software / web development with Laravel (PHP) and Vue.js',
+      ],
+    },
+    {
+      role: 'Full-Stack Developer',
       company: 'Alberta Investment Management Corporation (AIMCo)',
       companylogo: require('./assets/images/aimco_logo.jpeg'),
-      date: 'January 2020 – Present',
+      date: 'January 2020 – December 2020',
       desc:
         'Responsible for full-cycle web / software development, from requirement gathering to data model design, coding, testing, documentation, deployment and presentation.',
       descBullets: [
