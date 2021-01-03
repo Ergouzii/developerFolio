@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3d439cc0041590481337a13a9902e2f",
+    "revision": "c47006ae70a94194d27acf10fb61082e",
     "url": "/index.html"
   },
   {
-    "revision": "ac116ad1120922318279",
+    "revision": "23c94453c336757342e0",
     "url": "/static/css/3.9e35b409.chunk.css"
   },
   {
-    "revision": "459bb3545869e9cedbb8",
+    "revision": "25a3220bc41a9e4eb9d3",
     "url": "/static/css/4.54df59d4.chunk.css"
   },
   {
-    "revision": "4fbc733c62789a8c289c",
+    "revision": "4e4f4fb9c20ef9237809",
     "url": "/static/css/main.0838d267.chunk.css"
   },
   {
-    "revision": "97584c254962f175eb97",
-    "url": "/static/js/2.03089a16.chunk.js"
+    "revision": "1f6162be9a62eec4a980",
+    "url": "/static/js/2.0fb0e3e0.chunk.js"
   },
   {
     "revision": "71772b085033e92f89cdfb3071333458",
-    "url": "/static/js/2.03089a16.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0fb0e3e0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ac116ad1120922318279",
-    "url": "/static/js/3.bec4962a.chunk.js"
+    "revision": "23c94453c336757342e0",
+    "url": "/static/js/3.9b66185d.chunk.js"
   },
   {
-    "revision": "459bb3545869e9cedbb8",
-    "url": "/static/js/4.5e98f7d7.chunk.js"
+    "revision": "25a3220bc41a9e4eb9d3",
+    "url": "/static/js/4.fb1068e6.chunk.js"
   },
   {
-    "revision": "4fbc733c62789a8c289c",
-    "url": "/static/js/main.90437cab.chunk.js"
+    "revision": "4e4f4fb9c20ef9237809",
+    "url": "/static/js/main.25c1c772.chunk.js"
   },
   {
-    "revision": "0cf2ac641d2ed02dfd72",
-    "url": "/static/js/runtime-main.e66d511d.js"
+    "revision": "388359917d591fbe422b",
+    "url": "/static/js/runtime-main.52cf561b.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -86,5 +86,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b5d90fb24f45472ea9074d28da9568da",
     "url": "/static/media/ualberta_logo.b5d90fb2.png"
+  },
+  {
+    "revision": "a2566fdb83b5d2547509c01ed989556b",
+    "url": "/static/media/whitespark.a2566fdb.jpg"
   }
 ]);
