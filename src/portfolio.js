@@ -12,7 +12,7 @@ const greeting = {
     'A passionate Full-Stack Software Developer 🚀 who loves building applications with React.js / Vue.js / Node.js / Django / Laravel and some other cool libraries and frameworks.'
   ),
   resumeLink:
-    'https://docs.google.com/document/d/13fL4IivGrph-55tWBT6soskozCSgFeqSehdf6drKYFk/export?format=pdf&attachment=false',
+    'https://drive.google.com/file/d/18bsYU808-x59F-tD2-gvcM3Ixh_gUhbO/view?usp=sharing',
 };
 
 // Social Media Link
