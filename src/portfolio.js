@@ -7,7 +7,7 @@ import emoji from 'react-easy-emoji';
 const greeting = {
   /* Summary And Greeting Section */
   username: 'Xiaohui Liu',
-  title: "Hey, I'm Xiaohui (Jay)",
+  title: "Hey, I'm Jay",
   subTitle: emoji(
     'A passionate Full-Stack Software Developer 🚀 who loves building applications with React.js / Vue.js / Node.js / Django / Laravel and some other cool libraries and frameworks.'
   ),
@@ -18,9 +18,9 @@ const greeting = {
 // Social Media Link
 
 const socialMediaLinks = {
-  github: 'https://github.com/xiaohui-j-liu',
-  linkedin: 'https://www.linkedin.com/in/xiaohui-liu/',
-  gmail: 'xiaohui.j.liu@gmail.com',
+  github: 'https://github.com/jay-liu-x',
+  linkedin: 'https://www.linkedin.com/in/jay-liu-x/',
+  gmail: 'jayliu925@gmail.com',
 };
 
 // Skills Section
@@ -191,7 +191,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   viewOpenSource: true, // Set it to true to show openSource section
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: 'xiaohui-j-liu', // Change to your github username to view your profile in Contact Section.
+  githubUserName: 'jay-liu-x', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -368,7 +368,7 @@ const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle: 'Wanna say hi? My inbox is always open for you!',
   number: '+1 780-716-6858',
-  email_address: 'xiaohui.j.liu@gmail.com',
+  email_address: 'jayliu925@gmail.com',
 };
 
 // Twitter Section
